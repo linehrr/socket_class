@@ -1,0 +1,23 @@
+Java / C++ Socket Classes
+---------------------------------
+
+This is a set of C++ and Java classes that allow socket
+communication between the languages.  
+
+On linux, to build type "make".  For Windows, a Visual
+Studio 2008 solution is provided.
+
+For more information, see:
+http://www.keithv.com/software/socket
+
+Currently the datagram methods are broken/not implemented.
+
+Revision history:
+----------------
+11/98 - Original release
+10/09 - Updated to work with modern compilers
+
+Have fun!
+Keith Vertanen
+
+
