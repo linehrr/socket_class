@@ -1,0 +1,157 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BACKLOG	Server.cpp	4;"	d	file:
+BUFFSIZE	Client.java	/^   static int BUFFSIZE = 128000;         \/\/ how many bytes our incoming buffer can hold$/;"	f	class:Client
+BUFFSIZE	Server.java	/^   static int BUFFSIZE = 128000;         \/\/ how many bytes our incoming buffer can hold$/;"	f	class:Server
+CC	Makefile	/^CC = g++$/;"	m
+CLIENT_BUFF_SIZE	Client.h	/^static const int CLIENT_BUFF_SIZE = 64000;$/;"	v
+Client	Client.cpp	/^Client::Client(int iPort, int iPortDatagram, const char* pStrHost, bool bReverse, bool* pResult)$/;"	f	class:Client
+Client	Client.h	/^class Client$/;"	c
+Client	Client.java	/^   public Client(int p, int datap, String address, int rev) throws IOException$/;"	m	class:Client
+Client	Client.java	/^public class Client $/;"	c
+Close	Client.cpp	/^bool Client::Close()$/;"	f	class:Client
+Close	Client.java	/^   public void Close() throws IOException$/;"	m	class:Client
+Close	Server.cpp	/^bool Server::Close()$/;"	f	class:Server
+Close	Server.java	/^   public void Close() throws IOException$/;"	m	class:Server
+Connect	Server.cpp	/^bool Server::Connect()$/;"	f	class:Server
+Connect	Server.java	/^    public void Connect() throws IOException$/;"	m	class:Server
+DEBUG_ACK	Client.h	9;"	d
+DEBUG_ACK	Server.h	11;"	d
+DOUBLE_SIZE	Server.java	/^   static int DOUBLE_SIZE = 8;$/;"	f	class:Server
+FLOAT_SIZE	Server.java	/^   static int FLOAT_SIZE = 4;$/;"	f	class:Server
+INT_SIZE	Server.java	/^   static int INT_SIZE = 4;$/;"	f	class:Server
+ITERS	cl.java	/^   static int ITERS = 20;    \/\/ how many messages to bounce back and forth$/;"	f	class:cl
+JAVAC	Makefile	/^JAVAC = javac$/;"	m
+NUM_PACKS	client_test.cpp	10;"	d	file:
+NUM_PACKS	java_client_test.java	/^   static int NUM_PACKS = 3;		\/\/ how many repetitions to do$/;"	f	class:java_client_test
+NUM_PACKS	java_server_test.java	/^   static int NUM_PACKS = 3;	\/\/ how many repetitions to do$/;"	f	class:java_server_test
+NUM_PACKS	server_test.cpp	10;"	d	file:
+RecvAck	Client.cpp	/^bool Client::RecvAck()$/;"	f	class:Client
+RecvAck	Client.java	/^   private void RecvAck() throws IOException$/;"	m	class:Client	file:
+RecvAck	Server.cpp	/^bool Server::RecvAck()$/;"	f	class:Server
+RecvAck	Server.java	/^   private void RecvAck() throws IOException$/;"	m	class:Server	file:
+RecvBytes	Client.cpp	/^int Client::RecvBytes(char* pVals, int iLen)$/;"	f	class:Client
+RecvBytes	Client.java	/^  public int RecvBytes(byte val[], int maxlen) throws IOException$/;"	m	class:Client
+RecvBytes	Server.cpp	/^int Server::RecvBytes(char* pVals, int iLen)$/;"	f	class:Server
+RecvBytes	Server.java	/^  public int RecvBytes(byte val[], int maxlen) throws IOException$/;"	m	class:Server
+RecvDatagram	Client.cpp	/^int Client::RecvDatagram(char* pVals, int iLen)$/;"	f	class:Client
+RecvDatagram	Client.java	/^  public int RecvDatagram(byte val[], int maxlen) throws IOException$/;"	m	class:Client
+RecvDatagram	Server.cpp	/^int Server::RecvDatagram(char* pVals, int iLen)$/;"	f	class:Server
+RecvDatagram	Server.java	/^  public int RecvDatagram(byte val[], int maxlen) throws IOException$/;"	m	class:Server
+RecvDoubles	Client.cpp	/^int Client::RecvDoubles(double* pVals, int iLen)$/;"	f	class:Client
+RecvDoubles	Client.java	/^  public int RecvDoubles(double val[], int maxlen) throws IOException$/;"	m	class:Client
+RecvDoubles	Server.cpp	/^int Server::RecvDoubles(double* pVals, int iLen)$/;"	f	class:Server
+RecvDoubles	Server.java	/^  public int RecvDoubles(double val[], int maxlen) throws IOException$/;"	m	class:Server
+RecvFloats	Client.cpp	/^int Client::RecvFloats(float* pVals, int iLen)$/;"	f	class:Client
+RecvFloats	Client.java	/^  public int RecvFloats(float val[], int maxlen) throws IOException$/;"	m	class:Client
+RecvFloats	Server.cpp	/^int Server::RecvFloats(float* pVals, int iLen)$/;"	f	class:Server
+RecvFloats	Server.java	/^  public int RecvFloats(float val[], int maxlen) throws IOException$/;"	m	class:Server
+RecvInts	Client.cpp	/^int Client::RecvInts(int* pVals, int iLen)$/;"	f	class:Client
+RecvInts	Client.java	/^  public int RecvInts(int val[], int maxlen) throws IOException$/;"	m	class:Client
+RecvInts	Server.cpp	/^int Server::RecvInts(int* pVals, int iLen)$/;"	f	class:Server
+RecvInts	Server.java	/^  public int RecvInts(int val[], int maxlen) throws IOException$/;"	m	class:Server
+RecvString	Client.cpp	/^int Client::RecvString(char* pStr, int iMax, char chTerm)$/;"	f	class:Client
+RecvString	Client.java	/^   public String RecvString(char terminal) throws IOException$/;"	m	class:Client
+RecvString	Server.cpp	/^int Server::RecvString(char* pStr, int iMax, char chTerm)$/;"	f	class:Server
+RecvString	Server.java	/^   public String RecvString(char terminal) throws IOException$/;"	m	class:Server
+SD_BOTH	Client.h	31;"	d
+SD_BOTH	Server.h	31;"	d
+SD_RECEIVE	Client.h	29;"	d
+SD_RECEIVE	Server.h	29;"	d
+SD_SEND	Client.h	30;"	d
+SD_SEND	Server.h	30;"	d
+SERVER_BUFF_SIZE	Server.h	/^static const int SERVER_BUFF_SIZE = 64000;$/;"	v
+SIZE	cl.java	/^   static int SIZE = 1024;   \/\/ how big the array of data is$/;"	f	class:cl
+SIZE	client_test.cpp	9;"	d	file:
+SIZE	java_client_test.java	/^   static int SIZE = 10;		\/\/ how many items in each packet$/;"	f	class:java_client_test
+SIZE	java_server_test.java	/^   static int SIZE = 10;		\/\/ how many items in each packet$/;"	f	class:java_server_test
+SIZE	server_test.cpp	9;"	d	file:
+SendAck	Client.cpp	/^bool Client::SendAck()$/;"	f	class:Client
+SendAck	Client.java	/^   private void SendAck() throws IOException$/;"	m	class:Client	file:
+SendAck	Server.cpp	/^bool Server::SendAck()$/;"	f	class:Server
+SendAck	Server.java	/^   private void SendAck() throws IOException$/;"	m	class:Server	file:
+SendBytes	Client.cpp	/^bool Client::SendBytes(char* pVals, int iLen)$/;"	f	class:Client
+SendBytes	Client.java	/^   public void SendBytes(byte vals[], int len) throws IOException$/;"	m	class:Client
+SendBytes	Server.cpp	/^bool Server::SendBytes(char* pVals, int iLen)$/;"	f	class:Server
+SendBytes	Server.java	/^   public void SendBytes(byte vals[], int len) throws IOException$/;"	m	class:Server
+SendDatagram	Client.cpp	/^bool Client::SendDatagram(char* pVals, int iLen)$/;"	f	class:Client
+SendDatagram	Client.java	/^   public void SendDatagram(byte vals[], int len) throws IOException$/;"	m	class:Client
+SendDatagram	Server.cpp	/^bool Server::SendDatagram(char* pVals, int iLen)$/;"	f	class:Server
+SendDatagram	Server.java	/^   public void SendDatagram(byte vals[], int len) throws IOException$/;"	m	class:Server
+SendDoubles	Client.cpp	/^bool Client::SendDoubles(double* pVals, int iLen)$/;"	f	class:Client
+SendDoubles	Client.java	/^   public void SendDoubles(double vals[], int len) throws IOException$/;"	m	class:Client
+SendDoubles	Server.cpp	/^bool Server::SendDoubles(double* pVals, int iLen)$/;"	f	class:Server
+SendDoubles	Server.java	/^   public void SendDoubles(double vals[], int len) throws IOException$/;"	m	class:Server
+SendFloats	Client.cpp	/^bool Client::SendFloats(float* pVals, int iLen)$/;"	f	class:Client
+SendFloats	Client.java	/^   public void SendFloats(float vals[], int len) throws IOException$/;"	m	class:Client
+SendFloats	Server.cpp	/^bool Server::SendFloats(float* pVals, int iLen)$/;"	f	class:Server
+SendFloats	Server.java	/^   public void SendFloats(float vals[], int len) throws IOException$/;"	m	class:Server
+SendInts	Client.cpp	/^bool Client::SendInts(int* pVals, int iLen)$/;"	f	class:Client
+SendInts	Client.java	/^   public void SendInts(int vals[], int len) throws IOException$/;"	m	class:Client
+SendInts	Server.cpp	/^bool Server::SendInts(int* pVals, int iLen)$/;"	f	class:Server
+SendInts	Server.java	/^   public void SendInts(int vals[], int len) throws IOException$/;"	m	class:Server
+SendString	Client.cpp	/^bool Client::SendString(char* pStr)$/;"	f	class:Client
+SendString	Client.java	/^   public void SendString(String str) throws IOException$/;"	m	class:Client
+SendString	Server.cpp	/^bool Server::SendString(char* pStr)$/;"	f	class:Server
+SendString	Server.java	/^   public void SendString(String str) throws IOException$/;"	m	class:Server
+Server	Server.cpp	/^Server::Server(int iPort, int iPortDatagram, bool* pResult)$/;"	f	class:Server
+Server	Server.h	/^class Server$/;"	c
+Server	Server.java	/^   public Server(int p, int datap) throws IOException$/;"	m	class:Server
+Server	Server.java	/^public class Server {$/;"	c
+VERBOSE	Client.cpp	2;"	d	file:
+VERBOSE	Client.java	/^   boolean VERBOSE = true;		 \/\/ turn on\/off debugging output$/;"	f	class:Client
+VERBOSE	Server.cpp	5;"	d	file:
+VERBOSE	Server.java	/^   boolean VERBOSE = true;		 \/\/ turn on\/off debugging output$/;"	f	class:Server
+_CLIENT_H__	Client.h	6;"	d
+_SERVER_H__	Server.h	6;"	d
+address	Server.java	/^   String address;$/;"	f	class:Server
+buff	Client.java	/^   byte buff[];$/;"	f	class:Client
+buff	Server.java	/^   byte buff[];$/;"	f	class:Server
+cl	cl.java	/^public class cl {$/;"	c
+data	Client.java	/^   byte data[];$/;"	f	class:Client
+data	Server.java	/^   byte data[];$/;"	f	class:Server
+dataport	Client.java	/^   int dataport;$/;"	f	class:Client
+dataport	Server.java	/^   int dataport;$/;"	f	class:Server
+host	Client.java	/^   String host;$/;"	f	class:Client
+input	Client.java	/^   BufferedInputStream input;$/;"	f	class:Client
+input	Server.java	/^   BufferedInputStream input;$/;"	f	class:Server
+java_client_test	java_client_test.java	/^public class java_client_test $/;"	c
+java_server_test	java_server_test.java	/^public class java_server_test $/;"	c
+m_addrMe	Server.h	/^		struct sockaddr_in	m_addrMe;							\/\/ My address information$/;"	m	class:Server	typeref:struct:Server::sockaddr_in
+m_addrRemote	Client.h	/^		struct sockaddr_in	m_addrRemote;						\/\/ Connector's address information$/;"	m	class:Client	typeref:struct:Client::sockaddr_in
+m_addrRemote	Server.h	/^		struct sockaddr_in	m_addrRemote;						\/\/ Connector's address information$/;"	m	class:Server	typeref:struct:Server::sockaddr_in
+m_bReverse	Server.h	/^		bool				m_bReverse;							\/\/ Am I reversing byte order or not?$/;"	m	class:Server
+m_iListen	Server.h	/^		int					m_iListen;							\/\/ Descriptor we are listening on$/;"	m	class:Server
+m_iPort	Client.h	/^		int					m_iPort;							\/\/ Port I'm listening on$/;"	m	class:Client
+m_iPort	Server.h	/^		int					m_iPort;							\/\/ The port I'm listening on$/;"	m	class:Server
+m_iPortDatagram	Client.h	/^		int					m_iPortDatagram;					\/\/ Datagram port I'm listening on$/;"	m	class:Client
+m_iPortDatagram	Server.h	/^		int					m_iPortDatagram;					\/\/ Port I listen for datagrams on (can be same or different from port)$/;"	m	class:Server
+m_iSock	Client.h	/^		int					m_iSock;							\/\/ Socket connection$/;"	m	class:Client
+m_iSock	Server.h	/^		int					m_iSock;							\/\/ Descriptor for the socket$/;"	m	class:Server
+m_pBuffer	Client.h	/^		double*				m_pBuffer;							\/\/ Reuse the same memory for buffer$/;"	m	class:Client
+m_pBuffer	Server.h	/^		double*				m_pBuffer;							\/\/ Reuse the same memory for buffer$/;"	m	class:Server
+m_pBuffer2	Client.h	/^		double*				m_pBuffer2;$/;"	m	class:Client
+m_pBuffer2	Server.h	/^		double*				m_pBuffer2;$/;"	m	class:Server
+main	cl.java	/^   public static void main( String args[] ) throws IOException$/;"	m	class:cl
+main	client_test.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	java_client_test.java	/^   public static void main( String args[] ) throws IOException$/;"	m	class:java_client_test
+main	java_server_test.java	/^   public static void main( String args[] ) throws IOException$/;"	m	class:java_server_test
+main	server_test.cpp	/^int main(int argc, char *argv[])$/;"	f
+output	Client.java	/^   BufferedOutputStream output;$/;"	f	class:Client
+output	Server.java	/^   BufferedOutputStream output;$/;"	f	class:Server
+port	Client.java	/^   int port;$/;"	f	class:Client
+port	Server.java	/^   int port;$/;"	f	class:Server
+recv_sock	Client.java	/^   DatagramSocket recv_sock, send_sock;$/;"	f	class:Client
+recv_sock	Server.java	/^   DatagramSocket recv_sock, send_sock;$/;"	f	class:Server
+reverse	Server.java	/^   boolean reverse = false;$/;"	f	class:Server
+send_sock	Client.java	/^   DatagramSocket recv_sock, send_sock;$/;"	f	class:Client
+send_sock	Server.java	/^   DatagramSocket recv_sock, send_sock;$/;"	f	class:Server
+server	Server.java	/^   ServerSocket server;$/;"	f	class:Server
+sock	Client.java	/^   Socket sock;$/;"	f	class:Client
+sock	Server.java	/^   Socket sock;$/;"	f	class:Server
+~Client	Client.cpp	/^Client::~Client()$/;"	f	class:Client
+~Server	Server.cpp	/^Server::~Server()$/;"	f	class:Server

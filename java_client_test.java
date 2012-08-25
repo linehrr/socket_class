@@ -57,8 +57,6 @@ public class java_client_test
 
 		for (int i = 0; i < NUM_PACKS; i++)
 		{
-			System.out.println("Client, receiving bytes, iteration " + i);
-			myclient.RecvBytes(D, SIZE);
 
 			System.out.println("Client, sending doubles, iteration " + i);
 			myclient.SendDoubles(C, SIZE);

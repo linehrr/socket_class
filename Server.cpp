@@ -112,9 +112,11 @@ Server::~Server()
 bool Server::Connect()
 {
 #ifdef _WIN32
+
 	int iSinSize = sizeof(struct sockaddr_in);
 #else
 	socklen_t iSinSize = (socklen_t) sizeof(struct sockaddr_in);
+
 #endif
 
 

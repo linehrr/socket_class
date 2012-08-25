@@ -43,10 +43,8 @@ public class java_server_test
 	System.out.println("Server, waiting for connection...");
 	mylink.Connect();
 
-	for (int i=0; i<NUM_PACKS; i++)
+	for (int i = 0; i<10000 ; i++)
 	{
-		System.out.println("Server, sending bytes, iteration " + i);
-		mylink.SendBytes(D, SIZE);
 
 		System.out.println("Server, receiving doubles, iteration " + i);
 		mylink.RecvDoubles(C, SIZE);
